@@ -1,1 +1,8 @@
 
+### Auth API
+This API is used to return a authentication token. User needs to provide email and password and call POST method.
+
+
+| URL          | Method | URL Params | Data Params                                       | Success                                                                                                                                                                                                                                                                        | Error                                                                                                                                    |
+|--------------|--------|------------|---------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| /v1/api/auth | `POST` | None       | `{"email":"user1@gmail.com","password":"123456"}` | **Code**: 200<br>**Response**:<br>`Returns authentication token.`<br><br>**Response Object**:<br>`eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjBkZWUwZTM2NzA1NDBkMjRmYWI0NDgiLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNTk0NzU3MTM2fQ.AmIQH7FFkjo39ChBvC0bXBJydZq2pWtPQgiGRBNF1vY` | **Code**:400<br>**Response**:`Joi/Mongoose Validation Error.`<br><br>OR<br><br>**Code**:400<br>**Response**:`Invalid email or password.` |
