@@ -7,8 +7,7 @@ require("./startup/routes")(app);
 require("./startup/db")();
 require("./startup/config")();
 require("./startup/validation")();
-
-if (process.env.NODE_ENV === "production") require("./startup/prod")(app);
+require("./startup/prod")(app);
 
 const port = process.env.PORT || 3000;
 
