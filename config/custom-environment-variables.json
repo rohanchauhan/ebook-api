@@ -1,4 +1,4 @@
 {
   "jwtPrivateKey": "ebook_jwtPrivateKey",
-  "db": ""
+  "db": "ebook_db"
 }
