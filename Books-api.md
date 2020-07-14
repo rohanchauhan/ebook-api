@@ -1,6 +1,6 @@
 
 
-##### Books API
+### Books API
 This API is used to manage the books in ebooks-api. Each book has a embedded category object.
 1. Admin privileges are required to delete a book. 
 2. Users need to be logged in to create or update book.
