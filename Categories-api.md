@@ -1,7 +1,7 @@
 
 ### Categories API
 This API is used to manage the categories of book in ebooks-api.
-1. Admin privileges are required to delete a book. 
+1. Admin privileges are required to delete a category. 
 2. Users need to be logged in to create or update category.
 3. Read operations do not need authentication.
 
