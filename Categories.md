@@ -8,7 +8,7 @@ This API is used to manage the categories of book in ebooks-api.
 **Example data param**
 `{name:"Category1"}`
 
-**Example category response**
+**Example category response (success)**
 `{
     "_id": "5f0d86a32d97e02e7c63dae2",
     "name": "Horror",
