@@ -3,7 +3,9 @@ REST API Backend in Node.js for E-library
 
 **Deployed on:**
 
-base_url: https://classique-mandarine-10882.herokuapp.com/
+base url: https://classique-mandarine-10882.herokuapp.com/
+
+Feel free to test it using Postman: Try GET on https://classique-mandarine-10882.herokuapp.com/v1/api/books
 
 ## Features:
 * APIs using Express
