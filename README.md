@@ -1,7 +1,7 @@
 # ebook-api
 REST API Backend in Node.js for E-library
 
-**Deployed on:**
+**Deployed on:** https://classique-mandarine-10882.herokuapp.com/
 
 ## Features:
 * APIs using Express
@@ -13,13 +13,13 @@ REST API Backend in Node.js for E-library
 * Configuration using config
 
 ## APIs:
-* Categories
-* Books
-* Customers
-* Users
-* Auth
-* Rentals
-* Returns
+* [Categories](https://github.com/rohanchauhan/ebook-api/blob/master/api-docs/Categories-api.md)
+* [Books](https://github.com/rohanchauhan/ebook-api/blob/master/api-docs/Books-api.md)
+* [Customers](https://github.com/rohanchauhan/ebook-api/blob/master/api-docs/Customers-api.md)
+* [Users](https://github.com/rohanchauhan/ebook-api/blob/master/api-docs/Users-api.md)
+* [Auth](https://github.com/rohanchauhan/ebook-api/blob/master/api-docs/Auth-api.md)
+* [Rentals](https://github.com/rohanchauhan/ebook-api/blob/master/api-docs/Rentals-api.md)
+* [Returns](https://github.com/rohanchauhan/ebook-api/blob/master/api-docs/Returns-api.md)
 
 ### Structure
 * config - configuration for different environments
